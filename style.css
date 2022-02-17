@@ -249,3 +249,26 @@ footer {
     font-size: 15px;
 }
 /* End of Footer Styling */
+
+/* For back to top button */
+#back-to-top {
+    background-color: #100B1Fff;
+    font-family: 'Monda', cursive;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 75px;
+    height: 75px;
+    border: 10px solid #6471F0ff;
+    border-radius: 50%;
+    box-shadow: 10px 10px 8px #2d1036;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top-button {
+    text-decoration: none;
+    color: white;
+}
+/* End back to top button */
