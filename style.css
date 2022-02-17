@@ -89,6 +89,10 @@ header h1 {
     padding: 0 15px;
 }
 
+#start-page-intro button:hover {
+    background-color: #011549ff;
+}
+
 #start-page-intro a {
     text-decoration: none;
     color: white;
@@ -140,5 +144,9 @@ header h1 {
     border: 5px solid #6471F0ff;
     border-radius: 20px;
     box-shadow: 10px 10px 8px #2d1036;
+}
+
+#photos .photos-cards strong {
+    font-family: 'Monda', cursive;
 }
 /* End of Section: Photos Styling */
