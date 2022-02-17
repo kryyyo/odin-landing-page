@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* End of CSS Reset */
 
+/* Header Styling */
 header {
     background-color: #100B1Fff;
     color: white;
@@ -27,7 +29,7 @@ header nav {
 }
 
 header nav div span {
-    font-family: 'Handlee', cursive;
+    font-family: 'Monda', cursive;
     font-size: 20px;
     padding: 15px;
 }
@@ -37,5 +39,106 @@ header nav div span:hover {
 }
 
 header h1 {
+    font-family: 'Shizuru', cursive;
+}
+/* End of Header Styling */
+
+/* Section: Start Page Styling */
+.start-page {
+    background-color: #011549ff;
+    color: white;
+    padding: 150px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-page-border {
+    background-color: #100B1Fff;
+    border: 10px solid #6471F0ff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 8px #2d1036;
+}
+
+.start-page-border div {
+    padding: 75px;
+}
+
+#start-page-intro h1 {
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#start-page-intro p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#start-page-intro button {
+    font-family: 'Monda', sans-serif;
+    font-size: 15px;
+    background-color: #6471F0ff;
+    color: white;
+    border: 2px solid white;
+    padding: 0 15px;
+}
+
+#start-page-intro a {
+    text-decoration: none;
+    color: white;
+}
+
+#start-page-image img {
+    border: 2px solid #6471F0ff;
+    border-radius: 20px;
+}
+/* End of Section: Start Page Styling */
+
+/* Section: Photos Styling */
+#photos {
+    text-align: center;
+    background-color: #501263ff;
+    color: white;
+    padding: 100px;
+    min-height: 50vh;
+}
+
+#photos h2 {
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;    
+}
+
+#photos .photos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     font-family: 'Balsamiq Sans', cursive;
 }
+
+#photos .photos-cards div {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos .photos-cards img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 5px solid #6471F0ff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px #2d1036;
+}
+/* End of Section: Photos Styling */
