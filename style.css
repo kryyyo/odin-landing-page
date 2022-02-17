@@ -150,3 +150,41 @@ header h1 {
     font-family: 'Monda', cursive;
 }
 /* End of Section: Photos Styling */
+
+/* Section: Quote Styling */
+#quote {
+    background-color: #011549ff;
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#quote div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #100B1Fff;
+    border: 10px solid #6471F0ff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px #2d1036;
+    padding: 75px;
+}
+
+#quote p {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#quote h6 {
+    font-family: 'Monda', cursive;
+    font-size: 15px;
+}
+
+#quote strong {
+    font-size: 30px;
+}
+/* End of Section: Quote Styling */
