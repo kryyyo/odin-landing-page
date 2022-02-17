@@ -238,3 +238,14 @@ header h1 {
     background-color: #011549ff;
 }
 /* End of Section: Contact Styling */
+
+/* Footer Styling */
+footer {
+    background-color: #100B1Fff;
+    color: white;
+    text-align: center;
+    font-family: 'Monda', cursive;
+    padding: 20px;
+    font-size: 15px;
+}
+/* End of Footer Styling */
